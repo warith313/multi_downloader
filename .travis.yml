@@ -1,0 +1,13 @@
+services:
+  - xvfb
+before_install:
+  - export DISPLAY=:99.0
+  - pwd
+  - git clone https://github.com/flutter/flutter.git -b stable
+  - export PATH="$PATH:`pwd`/flutter/bin"
+  - flutter precache
+  - flutter doctor
+  - flutter pub get
+  - cd example
+script:
+  - flutter test

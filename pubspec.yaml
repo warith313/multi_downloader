@@ -1,0 +1,28 @@
+name: multi_downloader
+description: A plugin for creating and managing download tasks. Supports iOS and Android.
+version: 1.0.0
+homepage: https://github.com/warith313/multi_downloader
+maintainer: WaRiTh
+
+environment:
+  sdk: '>=1.20.1 <3.0.0'
+  flutter: ^1.12.13
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^1.6.5
+  permission_handler: ^5.0.0+hotfix.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.iraqtechno.multidownloader
+        pluginClass: MultiDownloaderPlugin
+      ios:
+        pluginClass: MultiDownloaderPlugin
