@@ -1,3 +1,7 @@
+## 1.0.1 - 21.04.2020
+
+- Translate the Strings
+
 ## 1.0.0 - 05.04.2020
 
 - correct README document
