@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="multi_downloader_notification_started">Download started</string>
-    <string name="multi_downloader_notification_in_progress">Download in progress</string>
-    <string name="multi_downloader_notification_canceled">Download canceled</string>
-    <string name="multi_downloader_notification_failed">Download failed</string>
-    <string name="multi_downloader_notification_complete">Download complete</string>
-    <string name="multi_downloader_notification_paused">Download paused</string>
+    <string name="multi_downloader_notification_started">بدأ التنزيل</string>
+    <string name="multi_downloader_notification_in_progress">التنزيل قيد التقدم</string>
+    <string name="multi_downloader_notification_canceled">تم إلغاء التنزيل</string>
+    <string name="multi_downloader_notification_failed">فشل التنزيل</string>
+    <string name="multi_downloader_notification_complete">تم التنزيل</string>
+    <string name="multi_downloader_notification_paused">توقف التنزيل مؤقتًا</string>
 </resources>
