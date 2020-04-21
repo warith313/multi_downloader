@@ -1,6 +1,6 @@
 name: multi_downloader
 description: A plugin for creating and managing download tasks. Supports iOS and Android.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/warith313/multi_downloader
 maintainer: WaRiTh
 
